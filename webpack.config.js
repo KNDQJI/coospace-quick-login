@@ -29,7 +29,7 @@ module.exports = {
         name: '[name]',
         version: `[version].[buildTime]`,
         namespace: "http://github.com/KNDQJI/coospace-quick-login",
-        match: "https://www.coosp.etr.u-szeged.hu/",
+        match: "https://www.coosp.etr.u-szeged.hu/*",
         require: [],
         resource: [],
         grant: []
