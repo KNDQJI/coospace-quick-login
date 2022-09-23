@@ -9,6 +9,5 @@ button.addEventListener('click', () => {
 const pw = localStorage.getItem(KEY);
 if (pw) {
 	passHolder.value = pw;
-	console.log(window.history);
 	button.click();
 }
